@@ -13,11 +13,11 @@ const parseCode = (str) => {
 				obj.id = Number(e);
 			}
 			i++;     
-		}
+		} 
 	  });
 	  //console.log(obj);
 	  return obj;
 };
 // Do not change the code below
 const str = prompt("Enter str: ");
-alert(JSON.stringify(parseCode(str)));
+alert(JSON.stringify(parseCode(str))); 
