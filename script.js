@@ -10,12 +10,11 @@ const parseCode = (str) => {
 			}else if(i===1){
 				obj.lastName = e
 			}else{
-				obj.id = Number(e);
+				obj.id = e;
 			}
 			i++;     
 		} 
 	  });
-	  //console.log(obj);
 	  return obj;
 };
 // Do not change the code below
